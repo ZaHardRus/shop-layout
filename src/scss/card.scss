@@ -1,0 +1,34 @@
+.card{
+    width: 28%;
+    border: 1px solid rgba(#fff, .3);
+    padding: 4px;
+    border-radius: 10px;
+    .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #191B1C;
+        padding: 55px 22px;
+        @media(max-width:780px){
+            picture{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 75%;
+                }
+            } 
+        }
+    }
+    .name{
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .cost{
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}

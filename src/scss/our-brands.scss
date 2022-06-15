@@ -1,0 +1,22 @@
+.our-brands{
+    background-color: #0F0F0F;
+    .title{
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 60px;
+    }
+    .brand-wrapper{
+        display: flex;
+        justify-content: center;
+        padding: 60px 0;
+    }
+}
+
+@media (max-width:1080px){
+    .brand-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+}
