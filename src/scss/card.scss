@@ -1,13 +1,13 @@
 .card{
     width: 28%;
-    border: 1px solid rgba(#fff, .3);
+    border: 1px solid rgba(#fff, .1);
     padding: 4px;
     border-radius: 10px;
     .image{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #191B1C;
+        background-color: #121314;
         padding: 55px 22px;
         @media(max-width:780px){
             picture{
