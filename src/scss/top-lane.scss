@@ -17,6 +17,11 @@
                 margin-top: 3px;
             }
         }
+        @media (max-width:768px) {
+            &>span{
+                display: none;
+            }
+        }
     }
     &_right-side{
         display: flex;

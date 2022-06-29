@@ -38,9 +38,12 @@
             width: 33%;
             .form{
                 display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+                justify-content: end;
                input{
                     height: 48px;
-                    width: 210px;
+                    width: 100%;
                     background-color: rgba(#fff,.4);
                     color:#fff;
                     padding-left: 4px;

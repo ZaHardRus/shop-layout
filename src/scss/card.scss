@@ -1,5 +1,8 @@
 .card{
-    width: 28%;
+    @media(max-width:476px){
+        width: 50%;
+    }
+    width: 25%;
     border: 1px solid rgba(#fff, .1);
     padding: 4px;
     border-radius: 10px;
@@ -8,7 +11,7 @@
         align-items: center;
         justify-content: center;
         background-color: #121314;
-        padding: 55px 22px;
+        //padding: 55px 22px;
         @media(max-width:780px){
             picture{
                 display: flex;
@@ -24,11 +27,17 @@
         margin-top: 24px;
         font-size: 18px;
         line-height: 21px;
+        @media (max-width:768px) {
+            font-size: 12px;
+        }
     }
     .cost{
         margin-top: 8px;
         font-size: 16px;
         line-height: 19px;
+        @media (max-width:768px) {
+            font-size: 10px;
+        }
     }
 
 }
